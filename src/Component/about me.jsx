@@ -7,7 +7,7 @@ function about_me() {
             <div className="About_me flex flex-col my-10 w-3/4 mx-auto       md:flex md:justify-between lg:flex">
 
                 {/* pic */}
-                <div className="pic h-10 md:w-1/3">
+                <div className="pic h-10 md:w-1/3 items-center justify-center">
                     <img src={Contact_me_pic} alt="" />
                 </div>
 
