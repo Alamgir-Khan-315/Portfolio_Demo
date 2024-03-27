@@ -14,9 +14,9 @@ function home() {
                         <h3 className="text-2xl font-bold">I AM A <span className="text-blue-400">DEVELOPER</span></h3>
 
                         <p className="text-justify text-sm pt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reprehenderit repellat sunt quae, officia amet porro ducimus.</p>
-                        <button className="bg-blue-400 p-2 rounded-full mt-5 active:bg-blue-500">Contact me</button>
-                        <button className="border-blue-400 border-2 p-2 rounded-full m-5
-                        hover:bg-blue-400">My Portfolio</button>
+                        <Link to="Comment" smooth={true} spy={true} ><button className="bg-blue-400 p-2 rounded-full mt-5 active:bg-blue-500" >Contact me</button></Link>
+                        <Link to="Project" smooth={true} spy={true} ><button className="border-blue-400 border-2 p-2 rounded-full m-5
+                        hover:bg-blue-400">My Portfolio</button></Link>
                     </div>
 
                     {/* pic */}
