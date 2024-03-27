@@ -3,7 +3,7 @@ import CV from "../assets/ALAMGIR KHAN.pdf"
 function navbar() {
     return (
         <>
-            <div className="w-full bg-purple-600">
+            <div id="Home" className="w-full bg-purple-600">
 
                 {/* nav title top */}
                 <div className="upper flex justify-between py-4 
