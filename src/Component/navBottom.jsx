@@ -3,8 +3,7 @@ import { FaHome, FaUserAlt } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { AiFillProject } from "react-icons/ai";
 import { RiContactsFill } from "react-icons/ri";
-import { Link } from 'react-router-dom';
-
+import { Link} from "react-scroll";
 
 function Navbottom() {
   return (
@@ -13,17 +12,17 @@ function Navbottom() {
       flex justify-between py-2 px-10 text-2xl rounded-full list-none shadow-lg
       md:w-1/3 lg:w-1/3">
         <li>
-          <Link to="/" activeClass='active' smooth={true} spy={true} ><FaHome /></Link>
+          <Link to="Home" activeClass='active' smooth={true} spy={true} ><FaHome /></Link>
         </li>
         <li>
-          <Link to="/About me" activeClass='active' smooth={true} spy={true} ><FaUserAlt /></Link>
+          <Link to="About_me" activeClass='active' smooth={true} spy={true} ><FaUserAlt /></Link>
         </li>
         <li>
-          <Link to="/Skills" activeClass='active' smooth={true} spy={true} ><GiSkills /></Link></li>
+          <Link to="Skills" activeClass='active' smooth={true} spy={true} ><GiSkills /></Link></li>
         <li>
-          <Link to="/Project" activeClass='active' smooth={true} spy={true} ><AiFillProject /></Link></li>
+          <Link to="Project" activeClass='active' smooth={true} spy={true} ><AiFillProject /></Link></li>
         <li>
-          <Link to="Comment" activeClass='active' smooth={true} spy={true} ><RiContactsFill /></Link></li>
+          <Link to="Comment"activeClass='active' smooth={true} spy={true}  ><RiContactsFill /></Link></li>
           
       </div>
     </div>
