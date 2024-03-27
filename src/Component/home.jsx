@@ -2,7 +2,7 @@ import homePic from "../Pics/ak.png"
 function home() {
     return (
         <>
-            <div id="Home">
+            <div >
                 <div className="container flex justify-around mx-auto
                 sm:w-full sm:mt-20
                 md:w-3/4 md:flex-row
