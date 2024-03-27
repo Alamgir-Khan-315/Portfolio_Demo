@@ -1,4 +1,6 @@
 import homePic from "../Pics/ak.png" 
+import { Link} from "react-scroll";
+
 function home() {
     return (
         <>
