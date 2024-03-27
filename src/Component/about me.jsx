@@ -1,4 +1,5 @@
 import Contact_me_pic from "../Pics/Contact me.png"
+import { Link} from "react-scroll";
 
 function about_me() {
     return (
@@ -24,13 +25,13 @@ function about_me() {
                         <div className="year">
                             <h1 className="text-blue-400 text-3xl">2</h1>
                             <p>Years of Experience</p>
-                            <button className="bg-blue-400 p-2 rounded-full hover:bg-blue-500 mt-6">Contact me</button>
+                            <Link to="Comment" smooth={true} spy={true} ><button className="bg-blue-400 p-2 rounded-full hover:bg-blue-500 mt-6">Contact me</button></Link>
                         </div>
                         <div className="project">
                             <h1 className="text-blue-400 text-3xl">500+</h1>
                             <p>Project Completed</p>
-                            <button className="border-blue-400 border-2 p-2 rounded-full  mt-6
-                                             hover:bg-blue-400">My Portfolio</button>
+                            <Link to="Project" smooth={true} spy={true} ><button className="border-blue-400 border-2 p-2 rounded-full  mt-6
+                                             hover:bg-blue-400">My Portfolio</button></Link>
                         </div>
 
                     </div>
