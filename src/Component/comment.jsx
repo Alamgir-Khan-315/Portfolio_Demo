@@ -12,7 +12,7 @@ const comment = () => {
         </div>
 
         {/* box */}
-        <div className="box w-4/5 mx-auto mt-5 flex-none items-center mb-12 border-b-blue-400 border-2 rounded-2xl p-3   md:mt-0 md:w-1/2 lg:max-w-350">
+        <div className="box w-4/5 mx-auto mt-5 flex-none items-center mb-12 border-b-blue-400 border-2 rounded-2xl p-3   md:mt-0 md:w-1/2 lg:max-w-[350]">
           <input type="text" placeholder="Your Name" className="bg-transparent w-full border-0 "/>
           <hr />
           <input type="email" placeholder="Your Email" className="bg-transparent w-full mt-5 border-0"/>
