@@ -14,7 +14,7 @@ function about_me() {
 
                 {/* text */}
                 <div className="text md:w-full mx-auto my-auto       md:pl-60 lg:pl-96">
-                    <h1 className="text-blue-400 font-extrabold text-3xl lg:text-5xl">ABOUT ME</h1>
+                    <h1 className="text-blue-400 font-extrabold text-3xl lg:text-3xl">ABOUT ME</h1>
                     <h1 className=" mt-3 font-extrabold text-2xl text-justify">I'm a Freelance Front-end Developer with over 2 years of experience</h1>
                     <p className="text-sm my-5 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a modi voluptatem dolorem assumenda?
                         Doloremque nulla, accusamus deleniti voluptates, consequatur sit labore excepturi suscipit quo deserunt
