@@ -9,7 +9,7 @@ function about_me() {
 
                 {/* pic */}
                 <div className="pic h-1 md:w-1/3 md:h-full">
-                    <img className="md:h-1/2" src={Contact_me_pic} alt="" />
+                    <img className="md:h-full" src={Contact_me_pic} alt="" />
                 </div>
 
                 {/* text */}
