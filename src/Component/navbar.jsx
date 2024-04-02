@@ -15,7 +15,7 @@ function navbar() {
                         lg:text-4xl">ALAMGIR</div>
                         <div className="KHAN font-bold text-xl -mt-2 lg:text-3xl">KHAN</div>
                     </div>
-                    <a href={CV} download="ALAMGUR KHAN"><button className="bg-blue-400 rounded-full px-3 text-sm h-10 mt-1 lg:text-2xl active:bg-blue-500
+                    <a href={CV} download="ALAMGUR KHAN"><button className="bg-blue-400 rounded-full px-3 text-sm h-10 mt-1 lg:text-xl active:bg-blue-500
                         md:mt-5">Download Resume</button></a>
                 </div>
                 
